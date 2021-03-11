@@ -1,0 +1,111 @@
+.s1 {
+    font-family: var(--roboto);
+    font-size: 12px;
+    color: #fff;
+    font-weight: 450 !important;
+    text-decoration: none;
+    outline: none;
+}
+
+.fa, .fas {
+    font-weight: 900 !important;
+}
+
+.s {
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 700 !important;
+    color: #fff;
+    opacity: .7;
+    text-decoration: none;
+    outline: none;
+}
+
+.source {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    margin: 0;
+    font-size: 12px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+body {
+  background: #00091B;
+  background-image: url('https://asteroidnode.com/img/start-moon/5.png');
+  color: #fff;
+}
+
+
+@keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+
+@-webkit-keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+  
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.dot {
+  color: #4FEBFE;
+}
+
+p {
+  text-align: center;
+  margin: 18px;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  
+}
+
+.icons {
+  text-align: center;
+  
+}
+
+.icons i {
+  color: #00091B;
+  background: #fff;
+  height: 15px;
+  width: 15px;
+  padding: 13px;
+  margin: 0 10px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  transition: all 200ms ease;
+  text-decoration: none;
+  position: relative;
+  opacity: .9;
+}
+
+.icons i:hover, .icons i:active {
+  color: #fff;
+  background: none;
+  cursor: pointer !important;
+  text-decoration: none;
+  opacity: 1;
+  
+}
